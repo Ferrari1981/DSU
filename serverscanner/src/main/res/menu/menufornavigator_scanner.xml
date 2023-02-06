@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/id_lback"
+        android:checkable="true"
+        android:contentDescription="Выйти"
+        android:enabled="true"
+        android:icon="@drawable/icon_scanner_exit_down"
+        android:actionMenuTextColor="#0A524B"
+        android:tooltipText="назад в приложение"
+        android:title="Выйти" />
+
+    <item
+        android:id="@+id/id_pinguser"
+        android:contentDescription="Контроль"
+        android:icon="@drawable/icon_dsu1_aceess_scanners"
+        android:title="Контроль"
+        android:actionMenuTextColor="#0A524B"
+        android:tooltipText="Контроль" />
+
+
+
+    <item
+        android:id="@+id/id_scanner_history"
+        android:contentDescription="История"
+        android:icon="@drawable/icon_history_scanner"
+        android:title="История"
+        android:actionMenuTextColor="#0A524B"
+        android:tooltipText="История" />
+
+
+
+    <item
+        android:id="@+id/id_scannerandroid"
+        android:contentDescription="СканерАндройд"
+        android:icon="@drawable/icon_dsu1_android_scanner"
+        android:title="Android"
+        android:actionMenuTextColor="#0A524B"
+        android:tooltipText="Сканер Андройд" />
+
+
+
+    <item
+        android:id="@+id/id_scannerpublic"
+        android:contentDescription="СканерОбщий"
+        android:icon="@drawable/icon_dsu1_public_scanner"
+        android:title="СканерОбщий"
+        android:actionMenuTextColor="#FAF8F8"
+        android:tooltipText="Сканер Общий" />
+    />
+</menu>

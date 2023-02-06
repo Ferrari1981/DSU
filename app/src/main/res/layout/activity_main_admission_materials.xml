@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_admissionmaterias"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Code_For_AdmissionMaterials_ПоступлениеМатериалов.MainActivity_AdmissionMaterials">
+
+    <LinearLayout
+        android:id="@+id/activity_admissionmaterias_face"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:context=".Code_For_AdmissionMaterials_ПоступлениеМатериалов.MainActivity_AdmissionMaterials">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_admissionmaterias_down"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:context=".Code_For_AdmissionMaterials_ПоступлениеМатериалов.MainActivity_AdmissionMaterials">
+
+    </LinearLayout>
+
+</LinearLayout>
+

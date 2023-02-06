@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigator_faceapp_main">
+
+    <group
+        android:checkableBehavior="single"
+        android:menuCategory="system">
+
+
+        <item
+            android:id="@+id/one"
+            android:icon="@drawable/icon_sodergimoe"
+            app:itemTextAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:itemIconSize="100dp"
+            android:title="Отчёт Ошибок" />
+
+
+        <item
+            android:id="@+id/sedmoy"
+            android:icon="@drawable/icon_dsu1_download_formenu"
+            app:itemTextAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:itemIconSize="100dp"
+            android:title="Обновление ПО" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:checked="true"
+                android:id="@+id/faur_abount"
+                android:icon="@drawable/icon_dsu1_for_navigator_view_11"
+                android:title="ООО Союз Автодор" />
+
+        </menu>
+    </item>
+
+</menu>
